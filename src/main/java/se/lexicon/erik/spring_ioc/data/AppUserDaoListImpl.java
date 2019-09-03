@@ -4,8 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.stereotype.Component;
+
 import se.lexicon.erik.spring_ioc.model.AppUser;
 
+@Component
 public class AppUserDaoListImpl implements AppUserDao {
 	
 	private List<AppUser> appUsers = new ArrayList<>();
